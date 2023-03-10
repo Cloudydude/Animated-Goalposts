@@ -1,0 +1,17 @@
+{
+	"Goal_animes_sonic_0":  { "File": "Goal_animes.bmp", "Rect": "0,0,48,32", "Center": "24,16" },
+	"Goal_animes_sonic_1":  { "File": "Goal_animes.bmp", "Rect": "0,32,48,32", "Center": "24,16" },
+	"Goal_animes_sonic_2":  { "File": "Goal_animes.bmp", "Rect": "0,64,48,32", "Center": "24,16" },
+	"Goal_animes_sonic_3":  { "File": "Goal_animes.bmp", "Rect": "0,96,48,32", "Center": "24,16" },
+
+	"Goal_animes_tails_0":  { "File": "Goal_animes.bmp", "Rect": "48,0,48,32", "Center": "24,16" },
+	"Goal_animes_tails_1":  { "File": "Goal_animes.bmp", "Rect": "48,32,48,32", "Center": "24,16" },
+	"Goal_animes_tails_2":  { "File": "Goal_animes.bmp", "Rect": "48,64,48,32", "Center": "24,16" },
+	"Goal_animes_tails_3":  { "File": "Goal_animes.bmp", "Rect": "48,96,48,32", "Center": "24,16" },
+
+
+	"Goal_animes_knuckles_0":  { "File": "Goal_animes.bmp", "Rect": "96,0,48,32", "Center": "24,16" },
+	"Goal_animes_knuckles_1":  { "File": "Goal_animes.bmp", "Rect": "96,32,48,32", "Center": "24,16" },
+	"Goal_animes_knuckles_2":  { "File": "Goal_animes.bmp", "Rect": "96,64,48,32", "Center": "24,16" },
+	"Goal_animes_knuckles_3":  { "File": "Goal_animes.bmp", "Rect": "96,96,48,32", "Center": "24,16" }
+}
