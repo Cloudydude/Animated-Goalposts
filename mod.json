@@ -3,10 +3,8 @@
 	{
 		"Name": "Animated goalposts",
 		"Author": "iCloudius",
-		"Description": "Makes the goalposts wink and blink when you beat a level.
-
-						Works in tandem with this mod",
-		"URL": "https://gamebanana.com/mods/54167",
-		"ModVersion": "1.1"
+		"Description": "Makes the goalposts wink and blink when you beat a level.",
+		"URL": "https://github.com/Cloudydude/Animated-Goalposts/blob/main/scripts/main.lemon",
+		"ModVersion": "1.11"
 	}
 }
