@@ -46,7 +46,7 @@ function bool Standalone.onWriteToSpriteTable(s16 px, s16 py, u16 renderQueue)
 				}
 				else
 				{
-					key = (!(u8[0xffffE654]) ? ((objA0.animation.sprite == 0x00) ? "signs_0x00" : (objA0.animation.sprite == 0x01) ? "signs_0x01" : "signs_0x02") : ((objA0.animation.sprite == 0x00) ? stringformat("signpost_%s_0x00", key) : (objA0.animation.sprite == 0x01) ? stringformat("signpost_%s_0x01", key) : stringformat("signpost_%s_0x02", key)))
+					key = (!(u8[0xffffE654]) ? ((isMainCharacter(CHARACTER_SONIC)) ? "signs_0x00" : (isMainCharacter(CHARACTER_TAILS)) ? "signs_0x01" : "signs_0x02") : ((isMainCharacter(CHARACTER_SONIC)) ? stringformat("signpost_%s_0x00", key) : (isMainCharacter(CHARACTER_TAILS)) ? stringformat("signpost_%s_0x01", key) : stringformat("signpost_%s_0x02", key)))
 					objA0.value26 = 0
 					objA0.value3e = 0
 					if (Renderer.hasCustomSprite(key))
