@@ -14,7 +14,7 @@ function bool Standalone.onWriteToSpriteTable(s16 px, s16 py, u16 renderQueue)
 	{
 		u8 animationSprite = 0
 		// Gets the string for the animated Goal Post
-		key = (!(u8[0xffffE654]) ? ((objA0.animation.sprite == 0x00) ? "sonic" : (objA0.animation.sprite == 0x01) ? "tails" : "knuckles") : GetXtraName(u8[0xffffE654], u8[0xffffb000 + 0x38]))
+		key = (!(u8[0xffffE654]) ? ((isMainCharacter(CHARACTER_SONIC)) ? "sonic" : (isMainCharacter(CHARACTER_TAILS)) ? "tails" : "knuckles") : GetXtraName(u8[0xffffE654], u8[0xffffb000 + 0x38]))
 			// Player 1										// Player 2
 		if ((u8[0xffffb000 + 0x20] == char.state.WIN_POSE || u8[0xffffb04a + 0x20] == char.state.WIN_POSE) && Renderer.hasCustomSprite(stringformat("Goal_animes_%s_0", key)))
 		{
